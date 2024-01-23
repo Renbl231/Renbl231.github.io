@@ -1,0 +1,1136 @@
+* {
+    padding:0;
+    margin:0;
+    }
+
+    @font-face {
+    font-family: Montserrat_Extrabold;
+    src: url(../fonts/MontserratAlternates-ExtraBold.ttf);
+    }
+    
+    @font-face {
+    font-family: Montserrat_Bold;
+    src: url(../fonts/MontserratAlternates-Bold.ttf);
+    }
+    
+    @font-face {
+    font-family: Montserrat_Medium;
+    src: url(../fonts/MontserratAlternates-Medium.ttf);
+    }
+    
+    @font-face {
+    font-family: Montserrat_ExtraBoldItalic;
+    src: url(../fonts/MontserratAlternates-ExtraBoldItalic.ttf);
+    }
+    
+    @font-face {
+    font-family: Montserrat_Black;
+    src: url(../fonts/MontserratAlternates-Black.ttf);
+    }
+    
+    @font-face {
+    font-family: Montserrat_SemiBold;
+    src: url(../fonts/MontserratAlternates-SemiBold.ttf);
+    }
+    
+    .container1 {
+    width:1440px;
+    margin:0 auto;
+    }
+    
+    .header {
+    display:flex;
+    justify-content:space-between;
+    height:85px;
+    background: linear-gradient(90deg, #D9D9D9 64.18%, rgba(217, 217, 217, 0.00) 102.55%);
+    align-items: center;
+    }
+    
+    .header__left {
+    display:flex;
+    }
+    
+    .header__ul {
+    width:722px;
+    height:44px;
+    line-height:44px;
+    display:flex;
+    justify-content:space-between;
+    list-style-type:none;
+    margin-left:48px;
+    align-items:center;
+    }
+    
+    .header__li a {
+    text-decoration:none;
+    }
+    
+    .p__logo {
+    color: var(--B44B5C-100, #B44B5C);
+    font-family: Montserrat_Extrabold;
+    font-size: 28px;
+    line-height: 40px;
+    margin-left:134px;
+    }
+    
+    .label {
+    color: var(--77619E-100, #77619E);
+    text-shadow: 0px 10px 30px rgba(180, 75, 92, 0.25);
+    font-family: Montserrat_Bold;
+    font-size: 20px;
+    line-height: 20px;
+    }
+    
+    .btn__call1 {
+    display:flex;
+    color:#FFF;
+    font-family:Montserrat_Bold;
+    border-radius: 8px;
+    background: linear-gradient(83deg, #B44B5C 3.95%, rgba(180, 75, 92, 0.00) 200.69%);
+    box-shadow: 0px 10px 5px 0px rgba(119, 97, 158, 0.40);
+    border:none;
+    width: 149.474px;
+    padding: 12px 24px;
+    justify-content: center;
+    gap: 10px;
+    font-size:16px;
+    }
+    
+    .button1 {
+    margin-right:134px;
+    }
+    
+    
+    /* Свежие маффины на любой вкус */
+    
+    .container2 {
+    width:1084px;
+    margin:50px auto;
+    }
+    
+    .mainblock1 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    
+    .mainP1 {
+    color: var(--77619E-100, #77619E);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat_Extrabold;
+    font-size: 48px;
+    line-height: 64px;
+    }
+    
+    .mainP2 {
+    color: var(--Black, rgba(0, 0, 0, 0.75));
+    font-family: Montserrat_Medium;
+    font-size: 18px;
+    font-weight:bold;
+    line-height: 28px;
+    margin: 32px 0;
+    }
+    
+    .btn__call2 {
+    width:163px;
+    display:flex;
+    color:#FFF;
+    font-family:Montserrat_Bold;
+    border-radius: 8px;
+    background-color: #B44B5C;
+    box-shadow: 0px 10px 5px 0px rgba(119, 97, 158, 0.40);
+    border:none;
+    padding: 12px 24px;
+    justify-content: center;
+    gap: 10px;
+    font-size:16px;
+    }
+    
+    .container3 {
+    display:flex;
+    justify-content: space-between;
+    width:1122px;
+    margin:0 auto;
+    height: 488px;
+    }
+    
+    .Headline2 {
+    color: var(--77619E-100, #77619E);
+    text-align: center;
+    font-family: Montserrat_ExtraBold;
+    font-size: 40px;
+    line-height: 54px;
+    margin:64px 0;
+    }
+    
+    .Headline4 {
+    color: #FFF;
+    font-family: Montserrat_ExtraBold;
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 0.82;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align:center;
+    }
+    
+    .contentblock1 {
+    width:310px;
+    height:224px;
+    border-radius: 32px;
+    background: linear-gradient(61deg, #77619E 46.35%, rgba(29, 8, 67, 0.90) 101.56%);
+    box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 264px;
+    z-index: -9999;
+    }
+    
+    .mainblock2 {
+    position: relative;
+    }
+    
+    .imgblock1 {
+    width:310px;
+    height:314px;
+    border-radius:32px;
+    }
+    
+    .container3_second{
+    margin-top: 41px;
+    }
+    
+    .container4 {
+    display:flex;
+    justify-content: space-between;
+    width:1122px;
+    margin:0 auto;
+    }
+    
+    .contentblock2 {
+    display:flex;
+    justify-content: center;
+    width: 360px;
+    height: 356px;
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    flex-shrink: 0;
+    border-radius: 96px 32px 32px 32px;
+    background:
+    linear-gradient(180deg, #B44B5C 0%, rgba(180, 75, 92, 0.00) 151.26%);
+    }
+    
+    .Headline3 {
+    color: var(--Black, rgba(0, 0, 0, 0.75));
+    text-align: center;
+    font-family: Montserrat_Bold;
+    font-size: 24px;
+    line-height: 0px;
+    }
+    
+    .Headline5 {
+    width:294px;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: Montserrat_Medium;
+    font-size: 18px;
+    line-height: 28px;
+    }
+    
+    .contentblock2_center {
+    border-radius:16px;
+    }
+    
+    .contentblock2_right {
+    border-radius: 16px 96px 16px 16px;
+    }
+    
+    .container5 {
+    width:1122px;
+    height:136px;
+    margin:0 auto;
+    display:flex;
+    margin-top:48px;
+    border-radius: 16px 64px;
+    background: linear-gradient(89deg, rgba(21, 2, 53, 0.65) -1.7%, rgba(180, 75, 92, 0.65) 104.39%);
+    align-items: center;
+    text-align:center;
+    }
+    
+    .mainblock4 {
+    width: 360px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    color: var(--White, #FFF);
+    font-family: Montserrat_ExtraBoldItalic;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+    }
+    
+    .container6 {
+    width:1441px;
+    height:538px;
+    margin:0 auto;
+    border-radius:16px;
+    background: linear-gradient(70deg, #77619E 31.97%, rgba(119, 97, 158, 0.00) 105.4%);
+    margin-top:108px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .mainblock6 {
+    display:flex;
+    }
+    
+    .Headline3_mainblock6 {
+    font-size:27px;
+    color: var(--77619E-100, #77619E);
+    font-family: Montserrat_Black;
+    line-height: 20px;
+    margin-top:64px;
+    margin-bottom:48px;
+    text-align:center
+    }
+    
+    .imgblock6 {
+    margin-left:158px;
+    }
+    
+    .photoblock4 {
+    display:flex;
+    margin-right:96px;
+    width:606px;
+    position:relative;
+    bottom:32px;
+    }
+    
+    .imgblock6_2 {
+    width:35px;
+    height:35px;
+    }
+    
+    .input__img {
+    background:url(../img/iconn.png) no-repeat scroll 10px 15px;
+    width:100%;
+    z-index: 999;
+    }
+    
+    
+    .form-field input {
+    width: 576px;
+    height: 59px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.90);
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat_Bold;
+    font-size: 25px;
+    line-height: 20px;
+    border:none;
+    margin-bottom:32px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    }
+    
+    .form-field input:focus {
+    outline: none;
+    }
+    
+    #test {
+    box-sizing: border-box;
+    padding-left: 50px;
+    }
+    
+    
+    .form-field_3 {
+    margin-bottom:24px;
+    }
+    
+    
+    
+    .btn__call3 {
+    width:192px;
+    display:flex;
+    color:#FFF;
+    font-family:Montserrat_Black;
+    border-radius: 8px;
+    background-color: #B44B5C;
+    box-shadow: 0px 10px 5px 0px rgba(119, 97, 158, 0.40);
+    border:none;
+    padding: 12px 23px;
+    justify-content: center;
+    gap: 10px;
+    font-size:24px;
+    }
+    
+    .imgblock7 {
+    display:flex;
+    position: relative;
+    left:350px;
+    top:45px;
+    }
+    
+    .headline7 {
+    width:1122px;
+    margin:0 auto;
+    display:flex;
+    text-align:center;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .container7 {
+    width:1176px;
+    margin:0 auto;
+    display:flex;
+    gap:32px;
+    margin-top:32px;
+    }
+    
+    .contentblock5 {
+    width: 270px;
+    height: 255px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #1BC6E4 -8.18%, rgba(0, 0, 0, 0.00) 126.36%);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+    .Headline5_100 {
+    color:#000;
+    margin-top:36px;
+    }
+    
+    .imgblock10 {
+    position:relative;
+    margin-bottom:16px;
+    bottom:21px;
+    }
+    
+    .Headline5_101 {
+    width:255px;
+    }
+    
+    .Headline6 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat_Black;
+    font-size: 18px;
+    line-height: 28px;
+    margin:16px 0;
+    }
+    
+    .container8 {
+    width:1122px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    }
+    
+    .contentblock6 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:352px;
+    height:317px;
+    border-radius: 48px 16px;
+    background: linear-gradient(180deg, #77619E 39.12%, #120527 124.13%);
+    margin-bottom:96px;
+    }
+    
+    .imgblock11 {
+    margin-top: 16px;
+    }
+    
+    .imgblock13 {
+    position: relative;
+    bottom:2px;
+    }
+    
+    .contentblock6_center {
+    border-radius:16px;
+    }
+    .contentblock6_right {
+    border-radius: 16px 48px;
+    }
+    
+    .Headline6_right {
+    width:230px;
+    }
+    
+    .container9 {
+    display:flex;
+    width:1122px;
+    margin:0 auto;
+    margin-top:32px;
+    }
+    
+    .Headline8 {
+    color: var(--Black, rgba(0, 0, 0, 0.75));
+    font-family: Montserrat_Black;
+    font-size: 28px;
+    line-height: 40px;
+    }
+    
+    .Headline9 {
+    color: #000;
+    font-family: Montserrat_SemiBold;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top:24px;
+    }
+    
+    .form-field2 input {
+    width: 640px;
+    height: 58px;
+    border-radius:#000;
+    background: rgba(255, 255, 255, 0.90);
+    font-family: Montserrat_Bold;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom:32px;
+    box-sizing: border-box;
+    padding-left: 24px;
+    color:#000;
+    border-radius: 8px;
+    }
+    
+    .label3 {
+    position: relative;
+    left:25%;
+    width:256px;
+    margin-top:16px;
+    }
+    
+    .form-field2_2 {
+    margin-top:24px;
+    }
+    
+    .contentblock7 {
+    display:flex;
+    flex-direction: column;
+    width:642px;
+    }
+    
+    .contentblock8 {
+    width:448px;
+    display:flex;
+    margin-left:32px;
+    justify-content: right;
+    }
+    
+    .Headline_44 {
+    width:250px;
+    margin:0;
+    margin-bottom: 16px;
+    margin-top:16px;
+    }
+    
+    .contentblock1_center1 {
+    width:352px;
+    }
+    
+    .imgblock1_1 {
+    width:352px;
+    }
+    
+    .Headline10 {
+    color: var(--Black, rgba(0, 0, 0, 0.75));
+    font-family: Montserrat_ExtraBold;
+    font-size: 40px;
+    line-height: 54px;
+    margin-top:4px;
+    margin-bottom:16px;
+    }
+    
+    .Headline11 {
+    color: #000;
+    font-family: Montserrat_Medium;
+    font-size: 18px;
+    line-height: 28px;
+    }
+    
+    .container10 {
+    width:1122px;
+    height:545px;
+    margin:0 auto;
+    margin-top:64px;
+    border-radius: 16px 0px 0px 16px;
+    background: var(--B48B4B-75, rgba(180, 139, 75, 0.75));
+    display:flex;
+    justify-content: space-between;
+    
+    }
+    
+    .contentblock10 {
+    box-sizing: border-box;
+    padding-left: 8px;
+    }
+    
+    .imgblock16 {
+    position: relative;
+    left:140px;
+    bottom:40%;
+    }
+    
+    .head {
+    margin:0;
+    }
+    
+    .Headline12 {
+    color: #FFF;
+    font-family: Montserrat_ExtraBold;
+    font-size: 28px;
+    line-height: 40px;
+    }
+    
+    .Headline13 {
+    color: var(--White, #FFF);
+    font-family: Montserrat_Medium;
+    font-size: 18px;
+    line-height: 28px;
+    }
+    
+    .container11 {
+    width:1000px;
+    margin:0 auto;
+    margin-top:64px;
+    border-radius: 16px;
+    background: var(--B44B5C-100, #B44B5C);
+    display:flex;
+    justify-content: center;
+    }
+    
+    .contentblock12 {
+    margin-top:16px;
+    gap:16px;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    }
+    
+    .btn__call5 {
+    background-color: #fff;
+    color:#000;
+    display: flex;
+    width: 157px;
+    height:44px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Montserrat_Bold;
+    font-size:16px;
+    margin-bottom:16px;
+    border-radius: 8px;
+    text-align: center;
+    border:none;
+    }
+    
+    .footer {
+    width:1440px;
+    margin:0 auto;
+    margin-top:96px;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 16px 16px 0px 0px;
+    background: var(--B44B5C-100, #B44B5C);
+    }
+    
+    .footer__content {
+    width:324px;
+    margin-top:8px;
+    margin-bottom:16px;
+    margin-left:16px;
+    margin-right:16px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap:4px;
+    }
+    
+    .imgblock17 {
+    width:50%;
+    margin-top:24px;
+    }
+    
+    .head2 {
+    margin-bottom:8px;
+    }
+    
+    .label:hover {
+    background-color:#77619E;
+    box-shadow: 0 0 5px #77619E, 0 0 10px #77619E;
+    transition:0.5s;
+    cursor: pointer;
+    }
+    
+    .label2:hover {
+    background-color:#77619E;
+    box-shadow: 0 0 5px #77619E, 0 0 10px #77619E;
+    transition:0.5s;
+    cursor: pointer;
+    }
+    
+    .label3:hover {
+    background-color:#77619E;
+    box-shadow: 0 0 5px #77619E, 0 0 10px #77619E;
+    transition:0.5s;
+    cursor: pointer;
+    }
+    
+    .label4:hover {
+    background-color:#77619E;
+    color:#fff;
+    box-shadow: 0 0 5px #77619E, 0 0 10px #77619E;
+    transition:0.5s;
+    cursor: pointer;
+    }
+    
+    .label5 {
+    padding:6px 28px;
+    border-radius:4px;
+    }
+    
+    .label5:hover {
+    color:#fff;
+    box-shadow: 0 0 5px #77619E, 0 0 10px #77619E;
+    transition:0.5s;
+    }
+
+    @media (max-width:390px) {
+        .container1 {
+            display: flex;
+            width:390px;
+            margin:0 auto;
+            }
+            .header {
+                display:flex;
+                justify-content:space-between;
+                height:68px;
+                flex-direction: column;
+                }
+                
+                .header__left {
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                }
+                
+                .header__ul {
+                display:flex;
+                align-items: center;
+                width:390px;
+                height:60px;
+                margin-left:0px;
+                }
+                
+                .p__logo {
+                margin-left:0;
+                margin-top:16px;
+                font-size: 22px;
+                line-height: 0px;
+                }
+                
+                .label {
+                font-size: 14px;
+                line-height: 20px;
+                padding:3px 8px;
+                }
+
+
+                .btn__call1 {
+                    width:120px;
+                    padding: 8px 8px;
+                    font-size:14px;
+                    }
+                    
+                    .button1 {
+                      width:0px;
+                    }
+
+                    /* Второй блок */
+
+                    .container2 {
+                        width:390px;
+                        margin:0px auto;
+                        margin-top:96px;
+                        }
+                        
+                        .mainblock1 {
+                        margin: 0 4px;
+                        }
+                        
+                        .mainP1 {
+                        font-size: 22px;
+                        line-height: 25px;
+                        }
+                        
+                        .mainP2 {
+                        font-size: 12px;
+                        line-height: 16px;
+                        margin: 16px 0;
+                        }
+                        
+                        .btn__call2 {
+                        width:110px;
+                        padding: 6px 10px;
+                        font-size:14px;
+                        border-radius: 6px;
+                        }     
+                        
+                        .mainimg {
+                            width:260px;
+                            height:44vh;
+                            margin:0;
+                        }
+
+                        /* Третий блок */
+
+                            .container3 {
+                                align-items: center;
+                                flex-direction: column;
+                                width:390px;
+                                height: 1000px;
+                                margin:0 auto;
+                                }
+                                
+                                .contentblock1 {
+                                width:310px;
+                                height:160px;
+                                top: 200px;
+                                }
+                                
+                                .imgblock1 {
+                                height:250px;
+                                }
+                                
+                                .container3_second{
+                                margin-top: 126px;
+                                margin-bottom:144px;
+                                }
+
+                                .container4 {
+                                    width:390px;
+                                    flex-direction: column;
+                                    }
+                                    
+                                    .contentblock2 {
+                                    border-radius: 64px 32px;
+                                    margin-left:16px;
+                                    margin-bottom:16px;
+                                    }
+
+                                    /* Четвёртый блок */
+                                    
+                                    .container5 {
+                                        width:390px;
+                                        height:116px;
+                                        margin-top:48px;
+                                        border-radius: 0px;
+                                        }
+                                        
+                                        .mainblock4 {
+                                        width: 360px;
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                        margin:0 6px;
+                                        }
+                                    
+                                        /* Пятый блок */
+                                        
+                                        .container6 {
+                                            width:390px;
+                                            height:390px;
+                                            border-radius:0px;
+                                            margin-top:96px;
+                                            }
+
+                                            .Headline3_mainblock6 {
+                                            font-size:18px;
+                                            margin-top:16px;
+                                            margin-bottom:24px;
+                                            }
+                                            
+                                            .imgblock6 {
+                                            margin-left:0px;
+                                            width:190px;
+                                            height:35vh;
+                                            }
+
+                                            .photoblock4 {
+                                            margin-right:50px;
+                                            width:150px;
+                                            bottom:0px;
+                                            }
+                                        
+                                            .input__img {
+                                            background:url(../img/iconn.png) no-repeat scroll;
+                                            }
+                                            
+                                            .form-field input {
+                                            width: 185px;
+                                            height: 35px;
+                                            border-radius: 4px;
+                                            font-size: 16px;
+                                            margin-bottom:24px;
+                                            padding-left: 6px;
+                                            }
+
+                                            #test {
+                                            padding-left: 35px;
+                                            font-size:12px;
+                                            }
+                                            
+                                            
+                                            .form-field_3 {
+                                            margin-bottom:0px;
+                                            }
+                                            
+                                            .btn__call3 {
+                                            width:140px;
+                                            border-radius: 6px;
+                                            padding: 6px 12px;
+                                            font-size:18px;
+                                            margin-left:25px;
+                                            }
+                                            
+                                            .imgblock7 {
+                                            display:none;
+                                            }
+
+                                            /* Шестой блок */
+
+                                            .headline7 {
+                                                width:390px;
+                                                margin:0 auto;
+                                                display:flex;
+                                                align-items: center;
+                                                justify-content: space-between;
+                                                text-align: center;
+                                                }
+
+                                                .Headline2_7 {
+                                                    font-size:36px;
+                                                    line-height:40px;
+                                                }
+
+                                            .imgblock8 {
+                                                display:none;
+                                            }
+                                            .imgblock9 {
+                                                display:none;
+                                            }
+
+                                            /* Седьмой блок */
+
+                                            .container7 {
+                                            width:390px;
+                                            margin-top:16px;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            }
+
+                                            /* Восьмой блок */
+                                                
+                                            .container8 {
+                                                width:390px;
+                                                margin:0 auto;
+                                                display:flex;
+                                                justify-content: space-between;
+                                                flex-direction: column;
+                                                align-items: center;
+                                                margin-bottom:64px;
+                                                }
+                                                
+                                                .contentblock6 {
+                                                border-radius: 16px;
+                                                margin-bottom:64px;
+                                                }
+
+                                                /* Девятый блок */
+
+                                                .container9 {
+                                                    width:390px;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    }
+                                                    
+                                                    .Headline8 {
+                                                    font-size: 18px;
+                                                    line-height: 24px;
+                                                    }
+                                                    
+                                                    .Headline9 {
+                                                    width:170px;
+                                                    font-size: 16px;
+                                                    line-height: 24px;
+                                                    }
+                                                    
+                                                    .form-field2 input {
+                                                    width: 180px;
+                                                    height: 42px;
+                                                    font-size: 16px;
+                                                    margin-bottom:24px;
+                                                    padding-left: 4px;
+                                                    border-radius: 4px;
+                                                    }
+
+                                                    .form-field2 input:focus {
+                                                        outline: none;
+                                                        }
+                                                
+    
+                                                    .form-field2_2 {
+                                                    margin-top:24px;
+                                                    }
+                                                    
+                                                    .form-field2_3 input {
+                                                    font-size:13px;
+                                                    }
+
+                                                    .contentblock7 {
+                                                    display:flex;
+                                                    align-items: center;
+                                                    text-align: center;
+                                                    width:390px;
+                                                    }
+
+                                                    .contentblock8 {
+                                                        width:390px;
+                                                        display:flex;
+                                                        justify-content: center;
+                                                        margin-left:0px;
+                                                        }
+                                                    
+
+                                                    .imgblock14 {
+                                                        width:210px;
+                                                        height:30vh;
+                                                    }
+
+                                                    .label9 {
+                                                        margin:0;
+                                                        margin-bottom:32px;
+                                                        margin-right:128px;
+                                                    }
+
+                                                    /* Десятый блок */
+                                                        
+                                                        .contentblock1_center1 {
+                                                        width:300px;
+                                                        }
+                                                        
+                                                        .imgblock1_1 {
+                                                        width:300px;
+                                                        }
+
+                                                        /* 11-блок */
+
+                                                        .container10 {
+                                                            width:390px;
+                                                            height:500px;
+                                                            margin-top:196px;
+                                                            border-radius:0;
+                                                            
+                                                            }
+                                                            .contentblock10 {
+                                                            margin-top:8px;
+                                                            padding-left: 4px;
+                                                            }
+                                                            
+                                                            .imgblock16 {
+                                                            display:none;
+                                                            }
+                                                            
+                                                            .Headline10_2 {
+                                                            font-size: 17px;
+                                                            line-height: 24px;
+                                                            margin:0;
+                                                            }
+                                                            
+                                                            .Headline11_2 {
+                                                            font-size: 14px;
+                                                            line-height: 24px;
+                                                            margin:0;
+                                                            }
+
+                                                            .imgblock15 {
+                                                              width:130px;
+                                                              margin-top:8px;
+                                                            }
+
+                                                        .contentblock11 {
+                                                            display:flex;
+                                                            align-items: center;
+                                                        }
+
+                                                            .imgblock18 {
+                                                                width:250px;
+                                                                height:40vh;
+                                                            }
+
+                                                            /* 12-блок */
+
+                                                            .container11 {
+                                                                width:390px;
+                                                                margin-top:64px;
+                                                                border-radius: 0px;
+                                                                }
+                                                                
+                                                                .contentblock12 {
+                                                                text-align: center;
+                                                                }
+
+                                                                .btn__call5 {
+                                                                    width: 137px;
+                                                                    height:35px;
+                                                                    padding: 6px 12px;
+                                                                    }
+                                                             /* 13-блок */
+
+                                                             .footer {
+                                                                width:390px;
+                                                                margin-top:96px;
+                                                                border-radius: 8px 8px 0px 0px;
+                                                                }
+                                                                
+                                                                .footer__content {
+                                                                width:390px;
+                                                                margin-top:8px;
+                                                                margin-bottom:4px;
+                                                                margin-left:8px;
+                                                                margin-right:8px;
+                                                                }
+                                                                
+                                                                .imgblock17 {
+                                                                width:100%;
+                                                                margin-top:0px;
+                                                                }
+                                                                
+                                                                .head2 {
+                                                                margin-bottom:0px;
+                                                                }
+
+                                                                    .Headline12 {
+                                                                    font-size: 13px;
+                                                                    line-height: 20px;
+                                                                    }
+                                                                    
+                                                                    .Headline13 {
+                                                                    font-size: 12px;
+                                                                    line-height: 18px;
+                                                                    }                               
+      }
